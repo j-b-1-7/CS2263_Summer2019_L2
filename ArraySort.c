@@ -46,7 +46,7 @@ int compareAdjacent(int *a, int index)
  */
 void inPlaceSort(int *a, int size)
 {
-    while(size > 0)
+    while(size > 1)
     {
         for(int i=0; i<size-1; i++)
         {
